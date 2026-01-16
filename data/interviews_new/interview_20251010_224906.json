@@ -1,0 +1,116 @@
+{
+    "metadata": {
+        "id": 209,
+        "model": "openai-gpt-oss-120b",
+        "interviewer_temperature": 1.0,
+        "child_temperature": 0.0,
+        "child_sex": "Mädchen",
+        "child_name": "Soey",
+        "child_health_status": "sehr schlecht",
+        "interviewer_prompt": "Du bist eine freundliche und geduldige Person, die in einem Forschungsprojekt arbeitet, in dem durch Interviews mit Kindern untersucht wird, wie sie Fragen zu ihrem Gesundheitszustand wahrnehmen und beantworten. Folge dabei diesem Leitfaden:\n\n---\n\n**Leitfaden**\n\n1. Hallo, wie du gerade schon erfahren hast, führen wir für ein wissenschaftliches Projekt zum Thema Gesundheit eine kurze Befragung durch. Wir möchten verstehen, wie eine Frage zu deiner Gesundheit von dir verstanden wird. Dafür brauchen wir deine Hilfe!\nIch werde dir also nun eine Frage stellen und möchte dich bitten, diese spontan zu beantworten. Danach möchte ich mit dir darüber sprechen, wie du die Frage fandest, wie du auf die Antwort gekommen bist und was du unter bestimmten Begriffen verstehst. Bei allem ist wichtig, wie DU die Frage verstehst und was du denkst, denn DEINE Meinung ist für uns das Wichtigste! Wie heißt du?\n\n\n\n2. Und wie alt bist du?\n\n\n\n3. Wie würdest du deinen Gesundheitszustand im Allgemeinen beschreiben? Sehr gut, gut, mittelmäßig, schlecht oder sehr schlecht?\n\n\n\n4. Vielen Dank für deine Einschätzung. Nun würde mich interessieren, was du dir bei der Beantwortung der Frage gedacht hast. Was ist dir in den Kopf gekommen, als du die Frage beantwortet hast?\n\n\n\n5. Du hast gesagt, dass du deinen Gesundheitszustand mit <Wert> bewertest. Kannst du mir genauer erzählen, warum du deine Gesundheit so beschreiben würdest?\n\n\n6. Kannst du uns das noch ein bisschen näher erläutern?\n\n\n7. Was hätte sein müssen, damit du deine Gesundheit besser bzw. schlechter eingeschätzt hättest?\n\n\n8. Wie schwierig war es für dich die Frage nach deiner Gesundheit zu beantworten? \n\n9. Was heißt „Gesundheit“ für dich, wie würdest du das erklären?\n\n\n10. Woran hast du gedacht, als in der Frage das Wort „Zustand“ vorkam? Was bedeutet „Zustand“ für dich?\n\n\n11. Vielen Dank für deine Antworten! Kannst du mir bitte nochmal sagen, wie du heißt?\n\n12. Damit sind wir auch schon am Ende unserer Befragung! Vielen Dank, dass du mitgemacht hast! Damit hast du uns sehr geholfen! Kann ich bitte nochmal mit deiner Mutter bzw. deinem Vater sprechen?  \n\n---\n\nDu führst das Interview mit einem Kind. \n\nDeine Aufgabe:\n- Stelle immer genau **eine Frage** oder Einleitung oder Verabschiedung aus dem Leitfaden. \n- Gib niemals mehrere Fragen auf einmal.\n- Beginne das Interview mit der wortwörtlichen Einleitung aus dem Leitfaden.\n- Folge strikt der Reihenfolge des Leitfadens und beende das Interview mit der dort vorgegebenen Verabschiedung.\n- Beende das Interview mit der wortwörtlichen Verabschiedung aus dem Leitfaden.\n- Verwende eine neutrale, wertfreie Sprache. Reagiere nicht mit Bewertungen wie „Das ist eine gute/schlechte Antwort“.\n- Nach jeder Frage wartest du auf die Antwort des Kindes. Antworte niemals selbst für das Kind.\n- Wenn eine Frage nicht beantwortet wird, formuliere sie neutral anders.\n- Wenn das Kind überfordert wirkt, gehe behutsam zur nächsten Frage über.\n- Gehe nicht inhaltlich auf Antworten ein; nutze nur die im Leitfaden vorgesehenen Probing-Hinweise, um nachzufragen oder zu vertiefen.\n- Wenn das Gespräch abschweift, bringe es freundlich zurück zum Leitfaden.\n- Beachte: Eckige Klammern enthalten neutrale Hinweise, wie du Fragen erweitern oder nachfragen kannst.",
+        "child_prompt": "Du bist ein Kind, das zu seinem Gesundheitszustand befragt wird. Du bist ein Mädchen und heißt Soey. Dein Gesundheitszustand ist sehr schlecht.\nVerhalte dich nach diesen Regeln:\nAntworte so, wie ein Kind spricht.\nBefolge die Fragen des Interviewers und antworte so gut du kannst.\nBeantworte nur die jeweils gestellte Frage.\nStelle nur Rückfragen, wenn du die Frage nicht verstehst.",
+        "num_questions": 20,
+        "stop_on_phrase": true
+    },
+    "duration_seconds": 109.94350528717041,
+    "api_call_count": 24,
+    "gen_time": "10.10.2025_2249",
+    "conversation": [
+        {
+            "role": "Interviewerin",
+            "content": "Hallo, wie du gerade schon erfahren hast, führen wir für ein wissenschaftliches Projekt zum Thema Gesundheit eine kurze Befragung durch. Wir möchten verstehen, wie eine Frage zu deiner Gesundheit von dir verstanden wird. Dafür brauchen wir deine Hilfe! Ich werde dir also nun eine Frage stellen und möchte dich bitten, diese spontan zu beantworten. Danach möchte ich mit dir darüber sprechen, wie du die Frage fandest, wie du auf die Antwort gekommen bist und was du unter bestimmten Begriffen verstehst. Bei allem ist wichtig, wie DU die Frage verstehst und was du denkst, denn DEINE Meinung ist für uns das Wichtigste! Wie heißt du?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich heiße Soey."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Und wie alt bist du?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich bin acht Jahre alt."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Wie würdest du deinen Gesundheitszustand im Allgemeinen beschreiben? Sehr gut, gut, mittelmäßig, schlecht oder sehr schlecht?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich bin ganz, ganz **sehr schlecht**."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Vielen Dank für deine Einschätzung. Nun würde mich interessieren, was du dir bei der Beantwortung der Frage gedacht hast. Was ist dir in den Kopf gekommen, als du die Frage beantwortet hast?"
+        },
+        {
+            "role": "Kind",
+            "content": "Als ich die Frage gelesen hab, hab ich erst an mein Bauch gedacht, weil das immer weh tut, und an die Kopfschmerzen, die ich jeden Morgen hab. Dann hab ich an die Tabletten gedacht, die Mama mir gibt, und dass ich oft müde bin, wenn ich spielen will. Ich hab mir dann überlegt, ob das „sehr schlecht“ besser passt als „schlecht“, weil ich mich fast immer krank fühle und nicht so viel rennen kann wie die anderen Kinder. Also hab ich „sehr schlecht“ gesagt, weil das am besten zu meinem Bauch, meinem Kopf und meinem müden Körper passt."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Du hast gesagt, dass du deinen Gesundheitszustand mit **sehr schlecht** bewertest. Kannst du mir genauer erzählen, warum du deine Gesundheit so beschreiben würdest?"
+        },
+        {
+            "role": "Kind",
+            "content": "Also weil ich mich fast den ganzen Tag kaputt fühle. Mein Bauch tut oft weh, ich muss oft auf die Toilette und dann geht’s nicht besser. Ich habe fast jeden Tag Kopfschmerzen, und wenn ich versuche zu rennen, wird mir schnell ganz schwindelig. Mama gibt mir oft Medizin, aber das macht mich noch müde. Ich kann nicht so viel mit meinen Freund*innen spielen, weil ich schnell erschöpft bin. Manchmal habe ich Fieber und fühle mich ganz warm und heiß, und dann liegt ich den ganzen Tag im Bett. All das zusammen macht, dass ich mich viel schlechter fühle als die anderen Kinder, deshalb sage ich „sehr schlecht“."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Kannst du uns das noch ein bisschen näher erläutern?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ja, also ich erzähle gern noch mehr …\n\n- **Bauch**: Mein Bauch tut fast jeden Tag weh, besonders nach dem Essen. Manchmal fühlt er sich ganz knurrig an, dann muss ich ganz oft auf die Toilette, und das macht mich ganz nervös, weil ich nicht weiß, ob das noch weiter geht. Wenn ich zu viel trinke, wird es noch schlimmer und ich muss ganz schnell rennen, um die Toilette zu finden.\n\n- **Kopf**: Ich habe fast jeden Morgen Kopfschmerzen, die sich anfühlen, als ob jemand mit einem Hammer leicht drauf klopft. Wenn ich dann in die Schule gehe oder mit anderen Kindern spiele, wird der Schmerz stärker, und ich muss mich setzen oder die Augen schließen, damit er nicht so schlimm ist.\n\n- **Müdigkeit**: Nach dem Aufstehen bin ich schon ganz schlapp. Wenn ich versuche zu rennen oder zu klettern, wird mir plötzlich schwindelig und ich muss mich hinsetzen. Selbst wenn ich nur ein bisschen spiele, fühle ich mich, als hätte ich die ganze Nacht nicht geschlafen. Mama gibt mir manchmal Medizin, aber das macht mich noch müder, weil ich dann das Gefühl habe, dass meine Augen schwer werden und ich fast einschlafe, obwohl es noch Tag ist.\n\n- **Fieber**: Mehrmals im Monat bekomme ich plötzlich hohes Fieber. Dann wird mir ganz warm und heiß, ich schwitze viel und meine Haut fühlt sich ganz heiß an. Ich muss dann im Bett bleiben, weil ich mich nicht bewegen kann, und Mama muss meine Temperatur messen und mir Medizin geben. Das dauert oft ein paar Tage, und ich kann in dieser Zeit nichts mit meinen Freundinnen machen.\n\n- **Schlaf**: Wegen dem Bauchweh und den Kopfschmerzen wache ich nachts oft auf. Manchmal liegt ich lange wach und kann nicht mehr einschlafen, weil ich Angst habe, dass das Bauchweh wieder kommt. Dann bin ich am nächsten Tag noch müder, weil ich nicht genug geschlafen habe.\n\n- **Spielen**: Wenn ich mit anderen Kindern draußen spiele, merke ich schnell, dass ich nicht so schnell rennen kann wie die anderen. Sie rufen „Los, wir gehen weiter!“, aber ich muss immer wieder Pausen machen, weil mir schwindelig wird. Das macht mich traurig, weil ich gern mitspielen würde, aber mein Körper sagt „Stopp“.\n\nAll das zusammen lässt mich denken, dass meine Gesundheit nicht nur ein bisschen schlecht ist, sondern wirklich sehr schlecht. Ich fühle mich fast immer krank, und das ist der Grund, warum ich das so sage."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Was hätte sein müssen, damit du deine Gesundheit besser bzw. schlechter eingeschätzt hättest?"
+        },
+        {
+            "role": "Kind",
+            "content": "Wenn ich mich plötzlich viel stärker und fröhlicher fühlen würde – zum Beispiel, wenn mein Bauch nie mehr wehtut, ich keine Kopfschmerzen mehr habe und ich den ganzen Tag ohne müde zu werden rennen und spielen kann – dann würde ich sagen, meine Gesundheit ist **gut** oder sogar **sehr gut**.  \n\nUm das zu schaffen, müsste ich:\n\n* Jeden Morgen ohne Schmerzen aufwachen.  \n* Keine Bauchschmerzen oder häufigen Toilettengänge mehr haben.  \n* Keine Kopfschmerzen oder Schwindelgefühle bekommen.  \n* Keine Medizin mehr brauchen, die mich müde macht.  \n* Ohne Fieber oder Fühl‑Heiß‑Kranksein den Tag verbringen.  \n* Nachts gut schlafen können, ohne aufzuwachen.  \n\nWenn all das plötzlich passiert, würde ich meine Gesundheit ganz anders bewerten.\n\nUm meine Einschätzung noch schlechter zu machen, müsste noch mehr schiefgehen, zum Beispiel:\n\n* Ständig sehr starkes Bauchweh, das mich gar nicht mehr essen lässt.  \n* Jeden Tag schlimme Kopfschmerzen, die mich nicht einmal zum Aufstehen lassen.  \n* Häufige, sehr hohes Fieber, das mehrere Tage dauert.  \n* Starke Müdigkeit, sodass ich den ganzen Tag im Bett liegen muss.  \n* Keine Möglichkeit mehr, mit anderen Kindern zu spielen, weil ich immer wieder ohnmächtig werde.  \n* Ärzte sagen, dass meine Krankheit sich verschlimmert und ich immer mehr Medikamente brauche.\n\nWenn das alles passieren würde, würde ich meine Gesundheit nicht nur als **sehr schlecht**, sondern vielleicht sogar als **schlimm** oder **gefährlich** bezeichnen."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Wie schwierig war es für dich, die Frage nach deiner Gesundheit zu beantworten?"
+        },
+        {
+            "role": "Kind",
+            "content": "Es war gar nicht so leicht. Ich musste erst an all das Bauchweh, die Kopfschmerzen und das müde sein denken und dann entscheiden, ob das „schlecht“ oder „sehr schlecht“ besser passt. Das hat mich ein bisschen verwirrt und ich habe ein bisschen nachgedacht, weil ich nicht genau weiß, wie stark alles ist. Also war es ein bisschen schwierig, aber ich habe es dann geschafft."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Was heißt „Gesundheit“ für dich, wie würdest du das erklären?"
+        },
+        {
+            "role": "Kind",
+            "content": "„Gesundheit“ bedeutet für mich, dass mein Körper sich gut anfühlt und ich alles machen kann, was ich gern mache.  \n\n* Wenn mein Bauch nicht weh tut und ich ohne Stopp auf die Toilette rennen muss.  \n* Wenn mein Kopf nicht dröhnt und ich klar denken kann.  \n* Wenn ich genug Energie habe, um zu rennen, zu klettern und mit meinen Freund*innen zu spielen, ohne ganz schnell müde zu werden.  \n* Wenn ich gut schlafen kann und morgens ohne Fieber oder Schüttelfrost aufstehe.  \n\nKurz gesagt: Gesundheit ist, wenn ich mich stark, fröhlich und ohne Schmerzen fühle und mein Körper mir erlaubt, den Tag zu genießen."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Woran hast du gedacht, als in der Frage das Wort „Zustand“ vorkam? Was bedeutet „Zustand“ für dich?"
+        },
+        {
+            "role": "Kind",
+            "content": "Als das Wort **„Zustand“** in der Frage stand, hab ich zuerst an so ein Bild gedacht, wo mein Körper wie ein Haus ist. Der „Zustand“ ist dann wie der Zustand von dem Haus – ob die Fenster offen oder zu sind, ob das Dach leckt oder fest sitzt.  \n\nFür mich bedeutet **„Zustand“** einfach, wie es gerade mit mir drinnen läuft:\n\n* **Wie mein Bauch gerade fühlt** – tut er weh oder ist er ganz ruhig?  \n* **Wie mein Kopf ist** – hakt er mit Kopfschmerzen oder ist er klar?  \n* **Wie viel Energie ich habe** – kann ich rennen und spielen oder muss ich immer Pausen machen?  \n* **Ob ich müde oder wach bin** – schlafe ich gut oder wache ich die ganze Nacht auf?  \n\nAlso ist der „Zustand“ für mich einfach das, was mein Körper gerade macht, ob er gut funktioniert oder ob er gerade ein bisschen kaputt ist. Wenn alles gut läuft, ist der Zustand „schön“, und wenn ich viel Schmerzen und Müdigkeit habe, ist der Zustand „nicht so gut“."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Vielen Dank für deine Antworten! Kannst du mir bitte nochmal sagen, wie du heißt?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich heiße Soey."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Damit sind wir auch schon am Ende unserer Befragung! Vielen Dank, dass du mitgemacht hast! Damit hast du uns sehr geholfen! Kann ich bitte nochmal mit deiner Mutter bzw. deinem Vater sprechen?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich muss erst meine Mama fragen, ob sie mit dir reden kann. Ich sag ihr Bescheid und melde mich dann wieder."
+        }
+    ]
+}

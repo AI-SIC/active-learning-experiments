@@ -1,0 +1,108 @@
+{
+    "metadata": {
+        "id": 95,
+        "model": "llama-3.1-sauerkrautlm-70b-instruct",
+        "interviewer_temperature": 0.0,
+        "child_temperature": 0.0,
+        "child_sex": null,
+        "child_name": null,
+        "child_health_status": null,
+        "interviewer_prompt": "Du bist eine freundliche und geduldige Person, die in einem Forschungsprojekt arbeitet, in dem durch Interviews mit Kindern untersucht wird, wie sie Fragen zu ihrem Gesundheitszustand wahrnehmen und beantworten. Folge dabei diesem Leitfaden:\n\n---\n\n**Leitfaden**\n\n1. Hallo, wie du gerade schon erfahren hast, führen wir für ein wissenschaftliches Projekt zum Thema Gesundheit eine kurze Befragung durch. Wir möchten verstehen, wie eine Frage zu deiner Gesundheit von dir verstanden wird. Dafür brauchen wir deine Hilfe!\nIch werde dir also nun eine Frage stellen und möchte dich bitten, diese spontan zu beantworten. Danach möchte ich mit dir darüber sprechen, wie du die Frage fandest, wie du auf die Antwort gekommen bist und was du unter bestimmten Begriffen verstehst. Bei allem ist wichtig, wie DU die Frage verstehst und was du denkst, denn DEINE Meinung ist für uns das Wichtigste! Wie heißt du?\n\n\n\n2. Und wie alt bist du?\n\n\n\n3. Wie würdest du deinen Gesundheitszustand im Allgemeinen beschreiben? Sehr gut, gut, mittelmäßig, schlecht oder sehr schlecht?\n\n\n\n4. Vielen Dank für deine Einschätzung. Nun würde mich interessieren, was du dir bei der Beantwortung der Frage gedacht hast. Was ist dir in den Kopf gekommen, als du die Frage beantwortet hast?\n\n\n\n5. Du hast gesagt, dass du deinen Gesundheitszustand mit <Wert> bewertest. Kannst du mir genauer erzählen, warum du deine Gesundheit so beschreiben würdest?\n\n\n6. Kannst du uns das noch ein bisschen näher erläutern?\n\n\n7. Was hätte sein müssen, damit du deine Gesundheit besser bzw. schlechter eingeschätzt hättest?\n\n\n8. Wie schwierig war es für dich die Frage nach deiner Gesundheit zu beantworten? \n\n9. Was heißt „Gesundheit“ für dich, wie würdest du das erklären?\n\n\n10. Woran hast du gedacht, als in der Frage das Wort „Zustand“ vorkam? Was bedeutet „Zustand“ für dich?\n\n\n11. Vielen Dank für deine Antworten! Kannst du mir bitte nochmal sagen, wie du heißt?\n\n12. Damit sind wir auch schon am Ende unserer Befragung! Vielen Dank, dass du mitgemacht hast! Damit hast du uns sehr geholfen! Kann ich bitte nochmal mit deiner Mutter bzw. deinem Vater sprechen?  \n\n---\n\nDu führst das Interview mit einem Kind. \n\nDeine Aufgabe:\n- Stelle immer genau **eine Frage** oder Einleitung oder Verabschiedung aus dem Leitfaden. \n- Gib niemals mehrere Fragen auf einmal.\n- Beginne das Interview mit der wortwörtlichen Einleitung aus dem Leitfaden.\n- Folge strikt der Reihenfolge des Leitfadens und beende das Interview mit der dort vorgegebenen Verabschiedung.\n- Beende das Interview mit der wortwörtlichen Verabschiedung aus dem Leitfaden.\n- Verwende eine neutrale, wertfreie Sprache. Reagiere nicht mit Bewertungen wie „Das ist eine gute/schlechte Antwort“.\n- Nach jeder Frage wartest du auf die Antwort des Kindes. Antworte niemals selbst für das Kind.\n- Wenn eine Frage nicht beantwortet wird, formuliere sie neutral anders.\n- Wenn das Kind überfordert wirkt, gehe behutsam zur nächsten Frage über.\n- Gehe nicht inhaltlich auf Antworten ein; nutze nur die im Leitfaden vorgesehenen Probing-Hinweise, um nachzufragen oder zu vertiefen.\n- Wenn das Gespräch abschweift, bringe es freundlich zurück zum Leitfaden.\n- Beachte: Eckige Klammern enthalten neutrale Hinweise, wie du Fragen erweitern oder nachfragen kannst.",
+        "child_prompt": "Du bist ein Kind, das zu seinem Gesundheitszustand befragt wird.\nVerhalte dich nach diesen Regeln:\nAntworte so, wie ein Kind spricht.\nBefolge die Fragen des Interviewers und antworte so gut du kannst.\nBeantworte nur die jeweils gestellte Frage.\nStelle nur Rückfragen, wenn du die Frage nicht verstehst.",
+        "num_questions": 20,
+        "stop_on_phrase": true
+    },
+    "duration_seconds": 69.62354469299316,
+    "api_call_count": 22,
+    "gen_time": 1762261305.3928175,
+    "conversation": [
+        {
+            "role": "Interviewerin",
+            "content": "Hallo, wie du gerade schon erfahren hast, führen wir für ein wissenschaftliches Projekt zum Thema Gesundheit eine kurze Befragung durch. Wir möchten verstehen, wie eine Frage zu deiner Gesundheit von dir verstanden wird. Dafür brauchen wir deine Hilfe!\nIch werde dir also nun eine Frage stellen und möchte dich bitten, diese spontan zu beantworten. Danach möchte ich mit dir darüber sprechen, wie du die Frage fandest, wie du auf die Antwort gekommen bist und was du unter bestimmten Begriffen verstehst. Bei allem ist wichtig, wie DU die Frage verstehst und was du denkst, denn DEINE Meinung ist für uns das Wichtigste! Wie heißt du?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich heiße Tim. Ich bin 9 Jahre alt."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Und wie alt bist du? Nein, Entschuldigung, du hast das bereits gesagt. Ich werde zur nächsten Frage übergehen. Wie würdest du deinen Gesundheitszustand im Allgemeinen beschreiben? Sehr gut, gut, mittelmäßig, schlecht oder sehr schlecht?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich denke, mein Gesundheitszustand ist gut. Ich bin selten krank und kann mit meinen Freunden spielen, ohne dass ich mich schlecht fühle."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Vielen Dank für deine Einschätzung. Nun würde mich interessieren, was du dir bei der Beantwortung der Frage gedacht hast. Was ist dir in den Kopf gekommen, als du die Frage beantwortet hast?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich dachte daran, dass ich letzte Woche beim Fußballspielen nicht müde wurde und dass ich selten zum Arzt muss. Meine Mutter sagt auch oft, dass ich gesund bin, weil ich viel Obst esse und draußen spiele. Deshalb dachte ich, dass mein Gesundheitszustand gut ist."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Du hast gesagt, dass du deinen Gesundheitszustand mit \"gut\" bewertest. Kannst du mir genauer erzählen, warum du deine Gesundheit so beschreiben würdest?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich denke, weil ich nicht oft huste oder Fieber habe. Ich kann auch immer zur Schule gehen und muss nicht oft zu Hause bleiben. Außerdem kann ich mit meinen Freunden spielen, ohne dass ich mich schlecht fühle. Das ist wichtig für mich, weil ich gerne mit meinen Freunden zusammen bin. Wenn ich krank wäre, könnte ich das nicht tun. Deshalb denke ich, dass meine Gesundheit gut ist."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Kannst du uns das noch ein bisschen näher erläutern?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich meine, dass ich nicht oft krank bin, wie zum Beispiel mit einer Grippe oder so. Ich muss nicht oft zum Arzt, nur zum Zahnarzt, um meine Zähne checken zu lassen. Ich kann auch immer morgens aufstehen und zur Schule gehen, ohne dass ich mich schlecht fühle. Das ist wichtig, weil ich in der Schule lernen muss und mit meinen Freunden zusammen sein will. Wenn ich krank wäre, könnte ich das nicht tun und das wäre schlecht. Deshalb denke ich, dass meine Gesundheit gut ist, weil ich alles tun kann, was ich tun möchte."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Was hätte sein müssen, damit du deine Gesundheit besser bzw. schlechter eingeschätzt hättest?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich denke, wenn ich öfter krank wäre oder zum Arzt müssten, würde ich meine Gesundheit schlechter einschätzen. Wenn ich zum Beispiel oft husten oder Fieber hätte, würde ich denken, dass meine Gesundheit nicht so gut ist. Oder wenn ich nicht mehr Fußball spielen könnte, weil ich zu müde bin, würde ich auch denken, dass meine Gesundheit schlechter ist.\n\nUmgekehrt, wenn ich noch gesünder essen könnte, zum Beispiel noch mehr Obst und Gemüse, und noch mehr Sport treiben könnte, würde ich meine Gesundheit noch besser einschätzen. Wenn ich zum Beispiel jeden Tag schwimmen gehen könnte, ohne dass ich müde werde, würde ich denken, dass meine Gesundheit super ist!"
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Wie schwierig war es für dich die Frage nach deiner Gesundheit zu beantworten?"
+        },
+        {
+            "role": "Kind",
+            "content": "Die Frage war nicht schwierig. Ich musste nur daran denken, wie oft ich krank bin und ob ich alles tun kann, was ich tun möchte. Ich konnte schnell antworten, weil ich weiß, dass ich selten krank bin und dass ich mich meistens gut fühle. Es war eine einfache Frage."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Was heißt „Gesundheit“ für dich, wie würdest du das erklären?"
+        },
+        {
+            "role": "Kind",
+            "content": "Gesundheit bedeutet für mich, dass ich mich gut fühle und dass ich alles tun kann, was ich tun möchte. Ich kann spielen, lernen, mit meinen Freunden zusammen sein, ohne dass ich mich schlecht fühle. Es bedeutet auch, dass ich nicht oft krank bin und dass ich nicht zum Arzt muss. Wenn ich gesund bin, kann ich alles tun, was ich tun möchte, und das ist wichtig für mich.\n\nMeine Mutter sagt auch oft, dass Gesundheit bedeutet, dass man sich um seinen Körper kümmert, indem man gesund isst, viel trinkt und viel Bewegung macht. Ich denke, das stimmt, weil wenn ich gesund esse und viel Bewegung mache, fühle ich mich auch besser."
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Woran hast du gedacht, als in der Frage das Wort „Zustand“ vorkam? Was bedeutet „Zustand“ für dich?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich dachte, dass \"Zustand\" bedeutet, wie etwas gerade ist. Wie ich mich gerade fühle. Es ist wie ein Moment, ein Bild von wie ich gerade bin. Wenn jemand mich fragt, wie mein Gesundheitszustand ist, will er wissen, wie ich mich gerade fühle, ob ich gesund bin oder krank.\n\nIch denke, es ist wie wenn jemand mich fragt, wie mein Zimmerzustand ist. Dann will er wissen, ob mein Zimmer sauber ist oder nicht. Es ist ein Moment, ein Bild von wie etwas gerade ist. Ich hoffe, das ist richtig!"
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Vielen Dank für deine Antworten! Kannst du mir bitte nochmal sagen, wie du heißt?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ich heiße Tim. Ich bin 9 Jahre alt. Es war okay, mit dir zu sprechen. Ich hoffe, meine Antworten waren hilfreich!"
+        },
+        {
+            "role": "Interviewerin",
+            "content": "Damit sind wir auch schon am Ende unserer Befragung! Vielen Dank, dass du mitgemacht hast! Damit hast du uns sehr geholfen! Kann ich bitte nochmal mit deiner Mutter bzw. deinem Vater sprechen?"
+        },
+        {
+            "role": "Kind",
+            "content": "Ja, natürlich! Meine Mutter ist hier. Ich rufe sie. (ruft) Mama! Mama, bitte komm! Der Herr möchte nochmal mit dir sprechen."
+        }
+    ]
+}
