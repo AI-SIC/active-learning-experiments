@@ -1,0 +1,37 @@
+name: gemma-finetune
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  - pip:
+      # Step 1 — after creating this env, install PyTorch manually:
+      # pip install torch==2.12.* torchvision torchaudio --index-url https://download.pytorch.org/whl/cu130
+
+      # transformers >=4.50 required — Gemma 4 support landed in 4.50
+      - transformers>=4.50.0
+
+      # trl 0.15+ required for assistant_only_loss and "messages" column support
+      - trl==0.15.*
+
+      - peft==0.14.*
+      - accelerate>=1.2.0
+
+      # Quantization (QLoRA) — 0.45+ has CUDA 13.0 support
+      - bitsandbytes>=0.45.0
+
+      # Data
+      - datasets>=3.2.0
+      - scikit-learn>=1.5.0
+      - pandas>=2.2.0
+      - numpy>=1.26.0,<2.0.0
+
+      # Active learning helpers (list_to_csr used in evaluation)
+      - small-text>=1.4.0
+
+      # Utilities
+      - tqdm
+      - huggingface_hub>=0.26
